@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f1">
+  <meta name="description" content="A little corner of the internet made just for Sareena. Happy birthday, October 15!">
+  <title>For Sareena, with love ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar"><a class="wordmark" href="#home" aria-label="Back to top">S<span>✳</span></a><span class="top-note">a little something for you</span><button class="sound-toggle" id="sparkleButton" aria-label="Make a wish">✦ <span>Make a wish</span></button></header>
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> TODAY IS ALL ABOUT YOU <span class="eyebrow-line"></span></p>
+        <h1>Happy birthday,<br><em>Sareena.</em></h1>
+        <p class="hero-text">The world got a little brighter on <strong>October 15</strong>—and this little corner of it is just for you.</p>
+        <a class="primary-button" href="#note">Open your birthday note <span>↗</span></a>
+        <p class="date-stamp"><span>15</span> OCTOBER <i>·</i> YOUR DAY, YOUR WAY</p>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a birthday cake with candles">
+        <div class="sunburst"></div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <span class="float-star star-a">✦</span><span class="float-star star-b">✧</span><span class="float-star star-c">✳</span>
+        <div class="cake-wrap"><div class="candle c1"><i></i></div><div class="candle c2"><i></i></div><div class="candle c3"><i></i></div><div class="cake-top"></div><div class="cake"><div class="icing"></div><div class="drip d1"></div><div class="drip d2"></div><div class="drip d3"></div><span class="berry b1">●</span><span class="berry b2">●</span><span class="berry b3">●</span></div><div class="cake-plate"></div></div>
+        <div class="art-caption"><span class="caption-mark">✳</span><span>baked with<br><em>lots of love</em></span></div>
+      </div>
+      <div class="scroll-cue"><span></span> A LITTLE MORE</div>
+    </section>
+    <section class="wish-strip"><span class="strip-star">✳</span><p>More laughter. More little adventures. More reasons to celebrate <em>you.</em></p><span class="strip-star">✳</span></section>
+    <section class="note-section" id="note">
+      <div class="note-aside"><p class="eyebrow"><span class="eyebrow-line"></span> A NOTE FOR YOU</p><span class="big-quote">“</span><p class="aside-caption">Some people make<br>ordinary days feel<br><em>a little more golden.</em></p><span class="aside-flower">✳</span></div>
+      <article class="letter-card">
+        <div class="letter-top"><span>DEAR SAREENA,</span><span class="letter-heart">♥</span></div>
+        <p class="letter-lead">Today, the candles are for you.<br><em>So are all the good things.</em></p>
+        <p class="letter-body">May this next trip around the sun bring you the kind of joy that sneaks up on you, the kind of laughter that makes your cheeks hurt, and a hundred little moments you’ll want to keep.</p>
+        <p class="letter-body">You deserve to feel celebrated—not just today, but in all the ordinary moments in between. Here’s to everything lovely that’s waiting for you.</p>
+        <p class="letter-signoff">With so much love, <span>and one extra candle ✨</span></p>
+        <div class="letter-footer"><span>15 · 10 · ALWAYS WORTH CELEBRATING</span><span>✳</span></div>
+      </article>
+    </section>
+    <section class="wishes-section">
+      <p class="eyebrow"><span class="eyebrow-line"></span> MAKE A WISH <span class="eyebrow-line"></span></p>
+      <h2>A new year of <em>you.</em></h2><p class="wishes-intro">Take a breath, close your eyes, and choose a little wish for the year ahead.</p>
+      <div class="wish-grid">
+        <button class="wish-card" data-wish="May your days be full of the kind of laughter that makes your cheeks hurt."><span class="wish-icon">☼</span><span class="wish-title">More joy</span><span class="wish-sub">the belly-laugh kind</span><span class="wish-arrow">↗</span></button>
+        <button class="wish-card" data-wish="May a lovely little adventure find its way onto your calendar soon."><span class="wish-icon">✈</span><span class="wish-title">New adventures</span><span class="wish-sub">with stories to tell</span><span class="wish-arrow">↗</span></button>
+        <button class="wish-card" data-wish="May you always find time for the little things that make your heart feel at home."><span class="wish-icon">♡</span><span class="wish-title">Soft moments</span><span class="wish-sub">just for you</span><span class="wish-arrow">↗</span></button>
+      </div>
+      <p class="wish-reveal" id="wishReveal" aria-live="polite"></p>
+    </section>
+    <section class="countdown-section"><span class="countdown-flower">✳</span><div><p class="eyebrow">THE CELEBRATION COMES AROUND AGAIN</p><h2>Until your next <em>October 15.</em></h2></div><div class="countdown" id="countdown"><div><strong id="days">---</strong><span>DAYS</span></div><i>:</i><div><strong id="hours">--</strong><span>HOURS</span></div><i>:</i><div><strong id="minutes">--</strong><span>MINUTES</span></div></div></section>
+  </main>
+  <footer><a class="wordmark" href="#home">S<span>✳</span></a><p>Made for Sareena, with love. <span>Happy birthday ♡</span></p><a href="#home" class="back-top">BACK TO TOP ↑</a></footer>
+  <div class="wish-toast" id="wishToast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
